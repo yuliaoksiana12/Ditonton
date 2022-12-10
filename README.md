@@ -1,12 +1,12 @@
 # Ditonton
 
 # Codemagic
-[![Codemagic build status](https://api.codemagic.io/apps/63173fe02923d86ba8bf4ddf/63173fe02923d86ba8bf4dde/status_badge.svg)](https://codemagic.io/apps/63173fe02923d86ba8bf4ddf/63173fe02923d86ba8bf4dde/latest_build)
-![ScreenShot](SSCodemagic.png "Screenshot")
+[![Codemagic build status](https://api.codemagic.io/apps/63947c288b2ac8bd9208d1be/63947c288b2ac8bd9208d1bd/status_badge.svg)](https://codemagic.io/apps/63947c288b2ac8bd9208d1be/63947c288b2ac8bd9208d1bd/latest_build)
+![ScreenShot](Codemagic.jpeg "Screenshot")
 
 # Crashlytics
-![ScreenShot](SSCrashlytics.png "Screenshot")
+![ScreenShot](Crahslytics.jpeg "Screenshot")
 
 
 # Analytics
-![ScreenShot](SSAnalytics.png "Screenshot")
+![ScreenShot](Analytics.jpeg "Screenshot")

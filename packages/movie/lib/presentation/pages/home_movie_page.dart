@@ -2,6 +2,7 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:core/styles/text_style.dart';
 import 'package:core/utils/constants.dart';
 import 'package:core/presentation/widgets/drawer.dart';
+import 'package:firebase_crashlytics/firebase_crashlytics.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:movie/domain/entities/movie.dart';
 import 'package:core/utils/routes.dart';
@@ -36,6 +37,7 @@ class HomeMoviePageState extends State<HomeMoviePage> {
         actions: [
           IconButton(
             onPressed: () {
+              FirebaseCrashlytics.instance.crash();
               Navigator.pushNamed(context, searchMovieRoute);
             },
             icon: const Icon(Icons.search),
